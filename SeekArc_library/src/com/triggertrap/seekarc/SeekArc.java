@@ -655,6 +655,10 @@ public class SeekArc extends View {
 		updateProgress(progress, false);
 	}
 
+	public int getProgress() {
+		return mProgress;
+	}
+
 	public int getProgressWidth() {
 		return mProgressWidth;
 	}
